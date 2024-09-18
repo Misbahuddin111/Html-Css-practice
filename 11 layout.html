@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+  .container{
+    width: 100vw;
+    height: 1000vh;
+    border: 2px solid black;
+    display: flex;
+  }
+
+  .boxes{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: red;
+    
+  
+  }
+  #box1{
+         /*  position: relative;
+      top: 50%;
+      left: 50%; */
+      /* z-index: 5; */
+  }
+  #box2{
+   
+   /*  position: absolute;
+    */
+  }
+  #box3{
+   /*  position: fixed;
+    left: 90%; */
+   
+  }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+<div class="boxes" id="box1">box1</div>
+<div class="boxes" id="box2">box2</div>
+<div class="boxes" id="box3">box3</div>
+<div class="boxes" id="box4">box4</div>
+
+
+
+    </div>
+</body>
+</html>

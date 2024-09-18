@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1 id="top">Form</h1>
+    <a href="#bottom">Bottom</a>
+    <form >
+       
+    <input type="text" placeholder=" Name" required >
+    <input type="text" placeholder="Surname" required><br><br>
+    <input type="password" placeholder="create password" required maxlength="12">
+    <input type="password" placeholder="confirm password" required maxlength="12"><br><br>
+    <input type="email" placeholder="Enter Email" required><br><br>
+    <input type="number" placeholder="enter number" required maxlength="10" ><br><br>
+    <input type="date" placeholder="Date of Birth">
+    <input type="text" size="15" maxlength="16" placeholder="Full Name">
+
+         <!-- radio element -->
+    <p>select your gender</p>
+  male:  <input type="radio" name="gender" value="male">
+  female:  <input type="radio" name="gender" value="female">
+  other:  <input type="radio" name="gender" value="other">
+      <!-- checkbox elements -->
+  <p>select your favourite subjects </p>
+  physics: <input type="checkbox" name="subjects" value="physics">
+  chemistry: <input type="checkbox" name="subjects" value="chemistry">
+  biology : <input type="checkbox" name="subjects" value="biology"><br>
+
+       <!-- select element  -->
+       <p>select city</p>
+        <select name="city">
+<option value="lahore">lahore</option>
+<option value="peshawar">peshawar</option>
+<option value="karachi">karachi</option>
+<option value="islamabad">islamabad</option>
+
+        </select>
+        <br><br>
+        <input type="file">
+
+        <!-- image type -->
+         <p>select image:</p>
+         <input type="image" value="image" src="car.jpg" width="100px" height="20px"><br>
+         <a href="#top">Top</a>
+
+      <h2 id="bottom">summary</h2>
+         <pre>
+           1. Whenever you want to collect information from X
+           visitors you will need a form, which lives inside a 
+             <form> element.
+
+           2.Information from a form is sent in name/value pairs. 
+            Each form control is given a name, and the text the 
+            user types in or the values of the options they select 
+              are sent to the server.
+
+           3. HTML5 introduces new form elements which make it X
+             easier for visitors to fill in forms.
+            </pre>
+
+<button type="submit">Submit </button>
+
+
+</body>
+</html>
